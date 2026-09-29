@@ -464,6 +464,33 @@ src/
 
 ---
 
+# 📦 Installation
+
+### Prerequisites
+
+- JDK 17 or later
+- JavaFX SDK compatible with your JDK
+- An IDE with JavaFX support, such as IntelliJ IDEA, Eclipse, or NetBeans
+
+### Setup
+
+```bash
+git clone https://github.com/bassem2002/JavaNetworkCommunicationSuite.git
+cd JavaNetworkCommunicationSuite
+```
+
+Open the repository in your IDE, add the JavaFX SDK `lib` directory to the project dependencies, and configure these VM options for JavaFX clients:
+
+```text
+--module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml,javafx.media
+```
+
+Replace `/path/to/javafx-sdk/lib` with the location of your JavaFX SDK. Each module uses plain Java source files and can be run independently; no Maven or Gradle build is required.
+
+Allow local network access in your firewall when prompted. For testing on one computer, keep the default loopback addresses and start each server before its clients.
+
+---
+
 # ▶️ Running the Project
 
 The applications can be launched independently from an IDE configured with JavaFX.
