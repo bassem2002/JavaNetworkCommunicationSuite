@@ -1,5 +1,14 @@
 # 🌐 JavaNetworkCommunicationSuite
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/JavaFX-2D74DA?style=for-the-badge" alt="JavaFX" />
+  <img src="https://img.shields.io/badge/TCP%20%7C%20UDP%20%7C%20Multicast-Networking-0F766E?style=for-the-badge" alt="TCP UDP Multicast" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-14B8A6?style=for-the-badge" alt="MIT License" /></a>
+</p>
+
+<p align="center"><a href="#-network-communication-models">Communication models</a> · <a href="#-installation">Installation</a> · <a href="#️-running-the-project">Run locally</a></p>
+
 A Java networking project demonstrating multiple communication models through **TCP**, **UDP**, and **UDP Multicast**, with interactive **JavaFX interfaces**, multi-client messaging, media transfer, file routing, and concurrent network processing.
 
 The project was developed to explore and compare different network communication mechanisms and their behavior in client-server and group communication scenarios.
